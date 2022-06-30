@@ -189,7 +189,7 @@
   }
 
    .skills-content .column{
-    width: 100%;
+    flex: 100%;
   }
 
 
@@ -206,9 +206,9 @@
   .home .home-content .text-3 {
     font-size: 32px;
   }
-  /* .skills .skills-content .column{
-    width: 100%;
-  } */
+  .skills .skills-content .column{
+    flex: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -367,6 +367,8 @@ section {
 .skills .skills-content .column{
   width:calc(50% - 30px);
 }
+
+
 
 .skills .skills-content .left .text{
   font-size: 20px;
